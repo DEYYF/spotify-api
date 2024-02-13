@@ -107,6 +107,11 @@ artista_albums:
   controller: App\Controller\ArtistasController::artista_albums
   methods: GET
 
+usuario_albums:
+  path: /usuario/{id}/albums
+  controller: App\Controller\AlbumsController::usuario_albums
+  methods: GET
+
 artista_album:
   path: /artista/{id}/album/{id_album}
   controller: App\Controller\ArtistasController::artista_album
