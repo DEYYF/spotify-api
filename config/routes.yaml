@@ -112,6 +112,7 @@ artista_album:
   controller: App\Controller\ArtistasController::artista_album
   methods: GET
 
+
 albums:
   path: /albums
   controller: App\Controller\AlbumsController::albums
